@@ -26,8 +26,8 @@ for i in file:
 	r = requests.post(url, data=data, cookies=cookie, headers=header)
 	#do not forget to check the login page is specifically saying that there is not a username like this or else it is no going to work
 	if "Invalid" or "invalid" or "not found" or "Not Found" in r.text:
-		print(f"[+] User Found! {user}")
+		print(colored(f"[+] User Found! {user}", "green"))
 	else:
-		print("[-] Could not find any potential user")
+		print(colored("[-] Could not find any potential user", "red"))
 		print("\n[*] Exitting...")
 		sys.exit()
