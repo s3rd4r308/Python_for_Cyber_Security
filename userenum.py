@@ -11,7 +11,7 @@ parser.add_argument('--list', '-l', help='username list', required=True)
 args = parser.parse_args()
 
 print(colored("USERNAME ENUMERATOR BY @s3rd4r308\n", "green"))
-print(colored("Only for Educational Purposes Only\n", "red"))
+print(colored("Only for Educational Purposes\n", "red"))
 
 url = args.url
 userList = args.list
