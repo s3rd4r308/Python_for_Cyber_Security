@@ -6,7 +6,7 @@ import argparse
 import sys
 from termcolor import colored
 
-parser = argparse.ArgumentParser(prog="password_gen", description="Password Generator and Password Safe Checker")
+parser = argparse.ArgumentParser(prog="password_gen", description="Password Generator")
 parser.add_argument("-l", "--length", help="length of the password", required=True)
 args = parser.parse_args()
 
