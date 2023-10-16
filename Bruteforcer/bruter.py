@@ -13,7 +13,7 @@ parser.add_argument('-k', '--keyword', help="a specific keyword in the page sour
 args = parser.parse_args()
 
 print(colored("Only for Educational Purposes\n", "red"))
-print(colored("USERNAME ENUMERATOR BY @s3rd4r308\n", "green"))
+print(colored("LOGIN PAGE BRUTER BY @s3rd4r308\n", "green"))
 
 url = args.url
 username = args.user
