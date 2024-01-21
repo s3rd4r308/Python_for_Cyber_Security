@@ -12,7 +12,7 @@ parser.add_argument('-w', '--wordlist', help='wordlist for the password', requir
 args = parser.parse_args()
 
 print(colored("Only for Educational Purposes\n", "red"))
-print(colored("LOGIN PAGE BRUTER BY @s3rd4r308\n", "green"))
+print(colored("LOGIN PAGE BRUTER WITH CAPTCHA EVADING BY @s3rd4r308\n", "green"))
 
 url = args.url
 
