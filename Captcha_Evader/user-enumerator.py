@@ -11,7 +11,7 @@ parser.add_argument('-w', '--wordlist', required=True)
 args = parser.parse_args()
 
 print(colored("Only for Educational Purposes\n", "red"))
-print(colored("LOGIN PAGE BRUTER BY @s3rd4r308\n", "green"))
+print(colored("USER ENUMERATOR WITH CAPTCHA EVADING BY @s3rd4r308\n", "green"))
 
 url = args.url
 
